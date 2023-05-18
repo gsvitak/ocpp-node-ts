@@ -465,6 +465,11 @@
             "type": "boolean",
             "default": false
         },
+        "privacy": {
+            "description": "Indication that this transaction is private and its behavior is under privacy mechanisms. Default = false, meaning: the event is not private.\r\n",
+            "type": "boolean",
+            "default": false
+        },
         "numberOfPhasesUsed": {
             "description": "If the Charging Station is able to report the number of phases used, then it SHALL provide it. When omitted the CSMS may be able to determine the number of phases used via device management.\r\n",
             "type": "integer"

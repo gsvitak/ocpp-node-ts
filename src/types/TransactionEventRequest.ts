@@ -171,6 +171,11 @@ export interface UrnOCPPCp220203TransactionEventRequest {
    */
   offline?: boolean;
   /**
+   * Indication that this transaction is private and its behavior is under privacy mechanisms. Default = false, meaning: the event is not private.
+   *
+   */
+  privacy?: boolean;
+  /**
    * If the Charging Station is able to report the number of phases used, then it SHALL provide it. When omitted the CSMS may be able to determine the number of phases used via device management.
    *
    */
